@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tarcisio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-14 03:52:38 "/>
+        <attribute name="created" value="VGFyY2lzaW87TFRWLTAzOzIwMjEtMTItMTQ7IjAzOjE1OjIzICI7MjQwMg=="/>
+        <attribute name="edited" value="VGFyY2lzaW87TFRWLTAzOzIwMjEtMTItMTQ7IjAzOjUyOjM4ICI7MTsyNTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOTA1, NOTA2, NOTA3, NOTA4" type="Real" array="False" size=""/>
+            <input variable="NOTA1"/>
+            <input variable="NOTA2"/>
+            <input variable="NOTA3"/>
+            <input variable="NOTA4"/>
+            <declare name="NOME, SOBRENOME" type="String" array="False" size=""/>
+            <declare name="MEDIA" type="Integer" array="False" size=""/>
+            <output expression="&quot;QUAL SEU NOME?&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;E SEU SOBRENOME?&quot;" newline="True"/>
+            <input variable="SOBRENOME"/>
+            <output expression="&quot;SUA MEDIA &#201;&quot;" newline="True"/>
+            <input variable="MEDIA"/>
+            <output expression="&quot;O SEU NOME &#201;: &quot; &amp; NOME &amp; &quot; E SEU SOBRENOME &#201;&quot; &amp; SOBRENOME &amp; &quot; SUA MEDIA &#201;&quot; &amp; MEDIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
